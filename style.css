@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.inputContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    padding-left: 10px;
+    border: 1px solid #bfb9b9;
+    color: #504a4a;
+    border-right: none;
+}
+
+
+input:focus::placeholder {
+    color: #504a4a;
+}
+input:focus {
+    border: 1px solid #504a4a;
+    color: #504a4a;
+    outline: none;
+}
+input::placeholder {
+    color: #bfb9b9;
+}
+
+.btn {
+    height: 30px;
+    width: 70px;
+    background-color: white;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    border: 1px solid #bfb9b9;
+    /* border-left: none; */
+    cursor: pointer;
+    /* box-shadow: 0px 5px 5px #d6cfcf; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+img {
+    height: 250px;
+}
+
+.container div {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #504a4a;
+    margin-top: 23px
+} 
+
+.bio {
+    width: 220px;
+    margin-top: 10px !important;
+    text-align: center;
+}
